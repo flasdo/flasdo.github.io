@@ -1,0 +1,132 @@
+/* global css */
+
+div {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+nav li {
+  display: inline;
+  margin: 0 auto;
+}
+
+nav li:last-child {
+  display: none;
+}
+
+nav li a {
+  padding: 10px 40px 10px 40px;
+  background-color: #000;
+  color: #FFF;
+}
+
+nav li a:hover {
+  color: #FFF;
+  background-color: #808080;
+}
+
+h1 {
+    color: #FFF;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* index.html specific code */
+
+.container {
+  position: relative;
+  overflow: hidden;
+  background: url(../images/background.jpg) gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+}
+
+.content {
+  width: 50em;
+	margin: 0 auto;
+}
+
+img {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2em;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.5);
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 1.5em;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.5);
+  height: 120px;
+}
+
+table {
+  font-size: 1.25em;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 800px;
+}
+
+.contact ul {
+  font-size: 1.5em;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contact ul a {
+  color: white;
+}
+
+a {
+  color: #FFF;
+}
+
+/* survey.html specific code */
+
+.container2 {
+  position: relative;
+  overflow: hidden;
+  background: url(../images/background2.jpg) gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+}
+
+form {
+  font-size: 1.5em;
+  text-align: center;
+  color: #FFF;
+}
+
+/* work.html specific code */
+
+.container3 {
+  position: relative;
+  overflow: hidden;
+  background: url(../images/background3.jpg) gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+}
